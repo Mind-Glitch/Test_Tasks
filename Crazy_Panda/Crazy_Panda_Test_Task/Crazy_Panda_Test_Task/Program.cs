@@ -1,7 +1,10 @@
-﻿#pragma warning disable
-void FindElementsForSum(List<uint> list, ulong sum, out int start, out int end)
+﻿// example
+using Crazy_Panda_Test_Task;
+
+List<uint> mockList = new()
 {
-    // your code here
-    start = 0;
-    end = 0;
-}
+    1, 4, 6, 1, 25, 13, 15
+};
+
+Function.FindElementsForSum(mockList, 11, out int start, out int end);
+Console.WriteLine("\n\n\n\tstart is : " + start + "\n\tend is : " + end);
