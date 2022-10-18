@@ -1,5 +1,5 @@
 
-# Crazy Panda Test task on C#. 
+# Crazy Panda Test task. 
 
 ### RU
 
